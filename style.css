@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Lab4 {
+    width: 90%;
+    justify-content: center;
+
+}
+
+.Lab4 h1 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.Question1 {
+    width: 50%;
+    background: yellow;
+    border: 1px solid black;
+    transition: transform 1s;
+    padding: 20px;
+    margin: 20px;
+    transform-origin: right;
+
+}
+
+.Question1:hover {
+
+    transform: rotate(180deg);
+
+}
+
+.Question2 {
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transition: width 2s, height 2s, transform 2s;
+
+
+
+}
+
+.Question2:hover {
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+
+}
+
+.Question3 img {
+    padding: 20px;
+    margin: 20px;
+    width: 70%;
+    height: 70%;
+
+}
+
+.img-col1:hover {
+    filter: grayscale(100%);
+
+}
+
+.img-col2:hover {
+    filter: blur(2px);
+
+}
+
+.img-col3:hover {
+    filter: opacity(30%);
+
+}
+
+.row {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.Question4 {
+    margin: 10px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.img-col {
+    border: 1px solid #ccc;
+    margin: 10px;
+
+}
+
+div.img-col img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 800px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.text-col {
+    width: 50%;
+    padding: 20px;
+}
+
+.text-col h2 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.Question5 .img-col {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
